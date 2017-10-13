@@ -6,7 +6,7 @@
 	background-color:yellow;    cambia todos los bloques
 }*/
 
-.azul{
+/*.azul{
 	background-color: blue;
 }
 h1,h2{
@@ -15,11 +15,12 @@ h1,h2{
 a{
 	color: white;
 	text-decoration: none; /*para sacar la linea de twitter*/
-}
-div{
+
+/*div{
 	background-color: red;
 }
-/*li{
+/*
+li{
 	color: white; primera forma
 }*/
 
@@ -29,16 +30,39 @@ div{
 /*.rojo ol li:first-child{  afecta al primero
 	color: white;
 }*/
-.rojo ol li:last-child{
-	color: white;          /*afecta al ultimo*/
+
+/*.rojo ol li:last-child{
+	color: white;          afecta al ultimo
 }
-li:first-of-type + li{  /*afecta al segundo*/
+li:first-of-type + li{  /*afecta al segundo
 	color: white;
 }
-/*li:first-child{  afecta al primero
+li:first-child{  afecta al primero
 	color: white;
 }*/
 
-#verde{
+/*#verde{
 	color: green;
+}*/
+
+.caja{
+	background-color:yellow;
+	padding:2em;
+	border:2em solid black; 
+}
+.caja2{
+	background-color:red;
+	padding-top: 1em; 
+	margin-top: 1em;
+	border: 1em dashed black;
+	display: none;
+}
+h2{
+	text-align: center;
+}
+.caja3{
+	background-color:green;
+	padding-top: 1em; 
+	margin-top: 1em;
+	border: 1em dashed black;
 }
