@@ -55,9 +55,9 @@ li:first-child{  afecta al primero
 	padding-top: 1em; 
 	margin-top: 1em;
 	border: 1em dashed black;
-	display: none;
+	/*visibility: hidden;*/
 }
-h2{
+.titulo{
 	text-align: center;
 }
 .caja3{
@@ -65,4 +65,7 @@ h2{
 	padding-top: 1em; 
 	margin-top: 1em;
 	border: 1em dashed black;
+}
+body{
+	margin: 0;
 }
