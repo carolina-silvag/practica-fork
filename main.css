@@ -1,0 +1,44 @@
+/* *{
+	color:blue; toma todo y lo cambia de color
+}*/
+
+/*div{
+	background-color:yellow;    cambia todos los bloques
+}*/
+
+.azul{
+	background-color: blue;
+}
+h1,h2{
+	color: white;
+}
+a{
+	color: white;
+	text-decoration: none; /*para sacar la linea de twitter*/
+}
+div{
+	background-color: red;
+}
+/*li{
+	color: white; primera forma
+}*/
+
+/*div ol li{
+	color: white; todos los li cambian a blanco en ese bloque
+}*/
+/*.rojo ol li:first-child{  afecta al primero
+	color: white;
+}*/
+.rojo ol li:last-child{
+	color: white;          /*afecta al ultimo*/
+}
+li:first-of-type + li{  /*afecta al segundo*/
+	color: white;
+}
+/*li:first-child{  afecta al primero
+	color: white;
+}*/
+
+#verde{
+	color: green;
+}
